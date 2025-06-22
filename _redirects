@@ -1,0 +1,15 @@
+# Netlify redirects file
+# Redirect common waitlist URLs to the main page
+/waitlist.html /  301
+/waitlist /  301
+/signup /  301
+/join /  301
+
+# Redirect www to non-www (if using apex domain)
+https://www.viralboost.app/* https://viralboost.app/:splat 301!
+
+# Force HTTPS
+http://viralboost.app/* https://viralboost.app/:splat 301!
+
+# Handle 404s - redirect to main page
+/* /waitlist.html 404 
