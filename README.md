@@ -20,7 +20,7 @@ A beautiful, secure waitlist page for ViralBoost - the revolutionary social medi
 ### 1. Local Development
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/viralboost-waitlist.git
+git clone https://github.com/StonerCryptoClub/viralboost-waitlist.git
 cd viralboost-waitlist
 
 # Open in browser
@@ -159,4 +159,4 @@ For issues or questions:
 
 ---
 
-**Built with ❤️ for the ViralBoost community** 
+**Built with ❤️ for the ViralBoost community**
