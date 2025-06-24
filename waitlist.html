@@ -890,7 +890,10 @@
                     
                     // Twitter conversion tracking event
                     if (typeof twq !== 'undefined') {
-                        twq('event', 'tw-q16nl-q16no', {});
+                        twq('event', 'tw-q16nl-q16no', {
+                            email_address: email, // pass the user's email address
+                            phone_number: null // phone number in E164 standard
+                        });
                     }
                     
                     setTimeout(() => {
@@ -927,7 +930,10 @@
                     
                     // Twitter conversion tracking event
                     if (typeof twq !== 'undefined') {
-                        twq('event', 'tw-q16nl-q16no', {});
+                        twq('event', 'tw-q16nl-q16no', {
+                            email_address: email, // pass the user's email address
+                            phone_number: null // phone number in E164 standard
+                        });
                     }
                     
                     setTimeout(() => {
